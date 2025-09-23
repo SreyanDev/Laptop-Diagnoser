@@ -12,13 +12,13 @@ Laptop Diagnoser is an **advanced Windows system monitoring and diagnostic tool*
 - 📊 **Detailed Reports**: Export diagnostics as **TXT** or **JSON**  
 - 🔒 **Security & Startup Check**: Firewall, Antivirus status, and startup apps  
 - ⏱ **Real-time Monitoring**: CPU, memory, disk, and network usage updates every 2 seconds
---- 
+
 ## 🛠 Built With
 - Python 🐍  
 - [PySimpleGUI](https://pypi.org/project/PySimpleGUI/) 🖼  
 - [psutil](https://pypi.org/project/psutil/) ⚡  
 - Windows Event Log (`pywin32`) 📝  
----
+
 ## 💾 Installation
 
 1. Clone the repository:  
@@ -32,7 +32,7 @@ cd laptop-diagnoser
 3. Run the application:
 <pre>python laptop_diagnoser.py</pre>
 ⚠️ Windows only. Some features (Event Log, Firewall/Antivirus check) require Windows.
---- 
+
 ## 📸 Screenshots 
 <img width="860" height="587" alt="image" src="https://github.com/user-attachments/assets/a054c4e2-395b-4182-af13-d27c97271094" />
 <img width="858" height="592" alt="image" src="https://github.com/user-attachments/assets/6b81c47f-c274-45b7-b6ce-19542cfca81d" />
